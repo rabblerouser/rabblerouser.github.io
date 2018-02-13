@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Contribute"
+    url: /contributors
+  - title: "Get Started"
+    url: /adopters
+  - title: "About"
+    url: /about

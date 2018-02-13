@@ -1,0 +1,22 @@
+---
+layout: single
+header:
+  overlay_image: /assets/images/rabble-rouser-header.jpg
+---
+
+<div class="text-center">
+  <h1>Rabble Rouser</h1>
+  <h2>Campaigning tools for community organisers and political, social, economic and environmental movements.</h2>
+
+  <img src="/assets/images/logo.png">
+
+  <h3><a href="/adopters">Get Started</a> | <a href="/contributors">Contribute</a></h3>
+</div>
+
+<hr>
+
+<h2>Latest posts</h2>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
