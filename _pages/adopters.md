@@ -1,4 +1,5 @@
 ---
+title: "Adopters"
 permalink: /adopters/
 ---
 

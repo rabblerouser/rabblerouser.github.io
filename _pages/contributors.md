@@ -1,4 +1,5 @@
 ---
+title: "Contributors"
 permalink: /contributors/
 ---
 
