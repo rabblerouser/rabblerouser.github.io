@@ -15,7 +15,7 @@ title                    : "Rabble Rouser"
 title_separator          : "-"
 name                     : "Rabble Rouser"
 description              : "Campaigning tools for community organisers and political, social, economic and environmental movements."
-url                      : "https://rabblerouser.github.io"
+url                      : "https://rabblerouser.netlify.com"
 repository               : "rabblerouser/core"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
