@@ -2,7 +2,13 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}"><img src="/assets/images/logo.png" width="75"></a>
+        <a class="site-title" href="{{ '/' | absolute_url }}"
+           ><svg width="75" height="75">
+            <image
+              xlink:href="/assets/images/logo.square.svg"
+              src="/assets/images/logo.square.200px.png"
+              width="75" height="75" />
+          </svg></a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
